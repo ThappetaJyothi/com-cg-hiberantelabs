@@ -28,7 +28,7 @@ public class Client {
 		tr.commit();
 		System.out.println("Added greeting to database.");
 		em.close();
-		//factory.close();
+		factory.close();
 		System.out.println("End");
 
 
